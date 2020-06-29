@@ -40,7 +40,7 @@ and then look how testHasOwn.ts works.
 ## Solution
 
 The solution is to use your own typed `hasOwnProperty` check as guided in this post: https://fettblog.eu/typescript-hasownproperty/.
-
+This is used in [testHasOwn.ts](testHasOwn.ts)
 
 Read more from TS issues:
 
