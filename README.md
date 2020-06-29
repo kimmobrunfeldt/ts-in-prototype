@@ -1,3 +1,5 @@
+*Disclaimer: I'm definitely not an expert with typed languages.*
+
 # How 'in' check might fail
 
 This repo is an example of why I think using `obj.hasOwnProperty('key')`
@@ -47,7 +49,7 @@ Read more from TS issues:
 * https://github.com/microsoft/TypeScript/issues/18282
 * https://github.com/microsoft/TypeScript/issues/10485
 
-
+I don't understand why `in` can narrow the type, but more specific `hasOwnProperty` can't.
 
 ## Details
 
